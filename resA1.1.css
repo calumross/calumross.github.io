@@ -1,0 +1,447 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+a:link{
+  text-decoration: none;
+}
+h1{
+  font-family: 'Overpass Mono', monospace;
+  font-weight: normal;
+  font-size: 2vw;
+  margin-top: 2%;
+  padding-left: 2%;
+  background-color: orange;
+}
+
+/*.headline{
+  margin-top: 2%;
+  width: 100%;
+  background-color: orange;
+}*/
+
+.back{
+  font-family: 'Overpass Mono', monospace;
+  font-weight: normal;
+  font-size: 1vw;
+  position: fixed;
+  color: orange;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 10%;
+  /*outline-style: solid;
+  outline-color: orange;*/
+}
+
+p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+  color: orange;
+  text-align: justify;
+}
+
+.sidebar{
+  visibility: visible;
+  position:fixed;
+  margin-top: 0.4%;
+  margin-left: 2%;
+  width: 20%;
+}
+
+#Videorow1{
+  float: left;
+  width: 90%;
+  margin-top: 5%;
+}
+
+#vid1{
+position: absolute;
+width: 40%;
+margin-left: 30%;
+height:auto;
+z-index: 0;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side1{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid1:hover{
+        z-index: 30;
+      }
+
+      #vid1:hover + .side1{
+      visibility: visible;
+      }
+
+
+#vid2{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 5%;
+margin-left: 35%;
+margin-bottom: 5%;
+margin-right: 5%;
+z-index: 1;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side2{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid2:hover{
+      z-index: 30;
+      }
+
+      #vid2:hover + .side2{
+      visibility: visible;
+      }
+
+#vid3{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 10%;
+margin-left: 40%;
+margin-bottom: 5%;
+margin-right: 5%;
+z-index: 2;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side3{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid3:hover{
+      z-index: 30;
+      }
+
+      #vid3:hover + .side3{
+      visibility: visible;
+      }
+
+#vid4{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 15%;
+margin-left: 45%;
+margin-bottom: 5%;
+margin-right: 5%;
+z-index: 3;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side4{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid4:hover{
+      z-index: 30;
+      }
+
+      #vid4:hover + .side4{
+      visibility: visible;
+      }
+
+#vid5{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 45%;
+margin-left: 30%;
+z-index: 0;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side5{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid5:hover{
+      z-index: 30;
+      }
+
+      #vid5:hover + .side5{
+      visibility: visible;
+      }
+
+#vid6{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 50%;
+margin-left: 35%;
+z-index: 1;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side6{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid6:hover{
+      z-index: 30;
+      }
+
+      #vid6:hover + .side6{
+      visibility: visible;
+      }
+
+#vid7{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 55%;
+margin-left: 40%;
+z-index: 2;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side7{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid7:hover{
+      z-index: 30;
+      }
+
+      #vid7:hover + .side7{
+      visibility: visible;
+      }
+
+#vid8{
+position: absolute;
+width: 40%;
+height:auto;
+margin-top: 60%;
+margin-left: 45%;
+z-index: 3;
+box-shadow: 10px 10px 10px #2b2c2d;
+}
+
+      .side8{
+        position:fixed;
+        background-color: black;
+        margin-top: 0.4%;
+        margin-left: 2%;
+        padding-bottom: 2vw;
+        width: 20%;
+        z-index: 35;
+        visibility: hidden;
+      }
+
+      #vid8:hover{
+      z-index: 30;
+      }
+
+      #vid8:hover + .side8{
+      visibility: visible;
+      }
+
+      #vid9{
+      position: absolute;
+      width: 40%;
+      height:auto;
+      margin-top: 90%;
+      margin-left: 30%;
+      z-index: 0;
+      box-shadow: 10px 10px 10px #2b2c2d;
+      }
+
+            .side9{
+              position:fixed;
+              background-color: black;
+              margin-top: 0.4%;
+              margin-left: 2%;
+              padding-bottom: 2vw;
+              width: 20%;
+              z-index: 35;
+              visibility: hidden;
+            }
+
+            #vid9:hover{
+            z-index: 30;
+            }
+
+            #vid9:hover + .side9{
+            visibility: visible;
+            }
+
+      #vid10{
+      position: absolute;
+      width: 40%;
+      height:auto;
+      margin-top: 95%;
+      margin-left: 35%;
+      z-index: 1;
+      box-shadow: 10px 10px 10px #2b2c2d;
+      }
+
+            .side10{
+              position:fixed;
+              background-color: black;
+              margin-top: 0.4%;
+              margin-left: 2%;
+              padding-bottom: 2vw;
+              width: 20%;
+              z-index: 35;
+              visibility: hidden;
+            }
+
+            #vid10:hover{
+            z-index: 30;
+            }
+
+            #vid10:hover + .side10{
+            visibility: visible;
+            }
+
+      #vid11{
+      position: absolute;
+      width: 40%;
+      height:auto;
+      margin-top: 100%;
+      margin-left: 40%;
+      z-index: 2;
+      box-shadow: 10px 10px 10px #2b2c2d;
+      }
+
+            .side11{
+              position:fixed;
+              background-color: black;
+              margin-top: 0.4%;
+              margin-left: 2%;
+              padding-bottom: 2vw;
+              width: 20%;
+              z-index: 35;
+              visibility: hidden;
+            }
+
+            #vid11:hover{
+            z-index: 30;
+            }
+
+            #vid11:hover + .side11{
+            visibility: visible;
+            }
+
+      #vid12{
+      position: absolute;
+      width: 40%;
+      height:auto;
+      margin-top: 105%;
+      margin-left: 45%;
+      z-index: 3;
+      box-shadow: 10px 10px 10px #2b2c2d;
+      }
+
+            .side12{
+              position:fixed;
+              background-color: black;
+              margin-top: 0.4%;
+              margin-left: 2%;
+              padding-bottom: 2vw;
+              width: 20%;
+              z-index: 35;
+              visibility: hidden;
+            }
+
+            #vid12:hover{
+            z-index: 30;
+            }
+
+            #vid12:hover + .side12{
+            visibility: visible;
+            }
+
+            #vid13{
+            position: absolute;
+            width: 40%;
+            height:auto;
+            margin-top: 135%;
+            margin-left: 30%;
+            z-index: 3;
+            box-shadow: 10px 10px 10px #2b2c2d;
+            }
+
+                  .side13{
+                    position:fixed;
+                    background-color: black;
+                    margin-top: 0.4%;
+                    margin-left: 2%;
+                    padding-bottom: 2vw;
+                    width: 20%;
+                    z-index: 35;
+                    visibility: hidden;
+                  }
+
+                  #vid13:hover{
+                  z-index: 30;
+                  }
+
+                  #vid13:hover + .side13{
+                  visibility: visible;
+                  }
+
+.embed-container { position: relative; margin-top: 2%;padding-bottom: 56.25%; height: 0;
+                  overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe,
+                  .embed-container object, .embed-container embed { position: absolute; top: 0;
+                  left: 0; width: 100%; height: 100%; }

@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+}
+
+img{
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -5%);
+}
+.message{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+a{
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: bold;
+  text-decoration: underline;
+}

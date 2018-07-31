@@ -3,6 +3,7 @@ body{
   color: white;
   text-align: center;
   font-family: 'Cutive Mono', monospace;
+  font-size: 3vw;
 }
 
 img{
@@ -15,7 +16,7 @@ img{
 
 .logo{
   position: absolute;
-  width: 50%;
+  width: 80%;
   left: 50%;
   top: 5%;
   transform: translate(-50%,-5%);
@@ -24,6 +25,8 @@ img{
 
 .message{
   position: absolute;
+  margin-top: 10%;
+  width: 80%;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);

@@ -5,13 +5,6 @@ body{
   font-family: 'Cutive Mono', monospace;
 }
 
-.logo{
-  position: absolute;
-  width: 50%;
-  left: 50%;
-  top: 5%;
-  transform: translate(-50%,-5%);
-}
 img{
   position: absolute;
   width: 100%;
@@ -19,6 +12,15 @@ img{
   top: 5%;
   transform: translate(-50%, -5%);
 }
+
+.logo{
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,-5%);
+}
+
 .message{
   position: absolute;
   left: 50%;
